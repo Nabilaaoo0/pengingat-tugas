@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #dceeff, #fffbe6);
+  margin: 0;
+  padding: 20px;
+  background-image: url('https://em-content.zobj.net/thumbs/240/apple/354/books_1f4da.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 80px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffffcc;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #2b3f66;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form input, form button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #3b6cb7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2f599e;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffb703;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #faae00;
+}
+
+.ta {
+  background: #e0f7fa;
+  padding: 12px;
+  border-left: 5px solid #0288d1;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.task-item.deadline-close {
+  background: #ffe6e6;
+  border-left: 5px solid red;
+}
