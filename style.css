@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #5cc7c5;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #3b32ae;
+  padding: 20px;
+  border-radius: 10px;
+}
+form input, form button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+.ta {
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 5px solid green;
+  background: #e7fce7;
+  border-radius: 5px;
+}
+.task-item.deadline-close {
+  border-left: 5px solid red;
+  background: #ffe6e6;
+}
